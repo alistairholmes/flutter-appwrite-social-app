@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter_appwrite_demo/ui/home/home_screen.dart';
 import 'package:flutter_appwrite_demo/utils/auth/auth_state.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_appwrite_demo/components/rounded_btn/rounded_btn.dart';
@@ -8,6 +9,8 @@ import 'package:flutter_appwrite_demo/ui/create_account/create_account.dart';
 import 'package:flutter_appwrite_demo/ui/success/success.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
 import 'package:provider/provider.dart';
+
+import '../base.dart';
 
 class Login extends StatefulWidget {
   @override
@@ -167,7 +170,7 @@ class _LoginState extends State<Login> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => SuccessScreen()));
+                                    builder: (context) => Base()));
                           }
                           setState(() {
                             showSpinner = false;
