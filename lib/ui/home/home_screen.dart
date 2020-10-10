@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
           children: [
             Center(
               child: Container(
-                height: 400,
+                height: 390,
                 width: 370,
                 child: Card(
                   child: Column(
@@ -34,7 +34,7 @@ class HomeScreen extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: SizedBox(
-                          width: 300,
+                          width: 350,
                           height: 300,
                           child: Image.network(
                             'https://images.unsplash.com/photo-1574986849078-0123e6045aa3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80',
