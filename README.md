@@ -1,12 +1,19 @@
-# Flutter Appwrite Login Template
+# Flutter Appwrite Social App
 
-A starter template to get you up and running with Appwrite E-mail Authentication
+A Social App playground for testing the features of Appwrite
+
+# Features
+
+* Sign Up
+* Login
+* Display Posts (READ)
+* Profile (Upload picture to Storage)
 
 # Screenshots
 
-Create Account Screen | Login Screen | Success Screen
+Create Account Screen | Login Screen | Home Screen
 ------------ | -------------|--------------
-![createaccount](https://user-images.githubusercontent.com/22801227/94818329-49394a80-03fe-11eb-9239-9a206b88cf85.png) | ![login](https://user-images.githubusercontent.com/22801227/94818326-48a0b400-03fe-11eb-83d6-738297e42ea4.png) | ![success](https://user-images.githubusercontent.com/22801227/94818314-450d2d00-03fe-11eb-8ecb-a2d63599aa5d.png)
+![createaccount](https://user-images.githubusercontent.com/22801227/94818329-49394a80-03fe-11eb-9239-9a206b88cf85.png) | ![login](https://user-images.githubusercontent.com/22801227/94818326-48a0b400-03fe-11eb-83d6-738297e42ea4.png) | ![scrren](https://user-images.githubusercontent.com/22801227/97788869-d241ce00-1bc4-11eb-850d-01dee35cbc40.PNG)
 
 # Credits
 
@@ -15,7 +22,6 @@ Create Account Screen | Login Screen | Success Screen
 * [Poppins Font](https://fonts.google.com/specimen/Poppins?query=popp)
 * [Images](https://undraw.co/illustrations)
 * [flutter_svg](https://pub.dev/packages/flutter_svg)
-* [Confetti](https://pub.dev/packages/confetti)
 
 # Developed By
 
