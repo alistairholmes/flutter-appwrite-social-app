@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_appwrite_demo/ui/home/home_screen.dart';
+import 'package:flutter_appwrite_demo/ui/my_profile/my_profile.dart';
 
 class Base extends StatefulWidget {
   @override
@@ -11,7 +12,7 @@ class _BaseState extends State<Base> {
   final List<Widget> _screens = [
     HomeScreen(),
     //AddNew(),
-    //MyProfile(),
+    MyProfile(),
   ];
 
   void _onTap(int index) {
